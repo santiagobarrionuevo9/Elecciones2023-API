@@ -26,3 +26,11 @@ Un sistema desarrollado para visualizar y consultar datos electorales de las Ele
 ### 📍 Obtener todos los distritos  
 ```bash
 curl --location 'http://localhost:8080/distritos'
+
+[
+  { "id": 1, "nombre": "Ciudad Autónoma de Buenos Aires" },
+  { "id": 2, "nombre": "Buenos Aires" },
+  { "id": 3, "nombre": "Catamarca" },
+  { "id": 4, "nombre": "Córdoba" }
+]
+
