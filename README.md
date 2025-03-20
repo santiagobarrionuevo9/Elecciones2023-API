@@ -40,9 +40,6 @@ Buscar distrito por nombre
 ```bash
 curl --location 'http://localhost:8080/distritos?distrito_nombre=bue'
 📌 Respuesta esperada
-json
-Copiar
-Editar
 [
   { "id": 1, "nombre": "Ciudad Autónoma de Buenos Aires" },
   { "id": 2, "nombre": "Buenos Aires" }
@@ -53,9 +50,6 @@ Editar
 ```bash
 curl --location 'http://localhost:8080/cargos?distrito_id=4'
 📌 Respuesta esperada
-json
-Copiar
-Editar
 {
   "distrito": { "id": 4, "nombre": "Córdoba" },
   "cargos": [
@@ -71,9 +65,6 @@ Editar
 ```bash
 curl --location 'http://localhost:8080/resultados?distrito_id=4&seccion_id=26'
 📌 Respuesta esperada
-json
-Copiar
-Editar
 {
   "distrito": "Córdoba",
   "seccion": "Unión",
@@ -88,15 +79,11 @@ Editar
 🐳 Uso con Docker
 📦 Construcción y ejecución con Docker
 ```bash
-Copiar
-Editar
 docker build -t elecciones-2023 .
 docker run -p 8080:8080 elecciones-2023
 ```
 📦 Uso con Docker Compose
 ```bash
-Copiar
-Editar
 docker-compose up
 ```
 📜 Documentación API
