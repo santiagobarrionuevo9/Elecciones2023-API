@@ -37,9 +37,6 @@ curl --location 'http://localhost:8080/distritos'
 ```
 
 Buscar distrito por nombre
-bash
-Copiar
-Editar
 ```bash
 curl --location 'http://localhost:8080/distritos?distrito_nombre=bue'
 📌 Respuesta esperada
@@ -53,9 +50,6 @@ Editar
 ```
 
 🗳️ Obtener cargos disponibles por distrito
-bash
-Copiar
-Editar
 ```bash
 curl --location 'http://localhost:8080/cargos?distrito_id=4'
 📌 Respuesta esperada
@@ -74,9 +68,6 @@ Editar
 ```
 
 📊 Obtener resultados por distrito y sección
-bash
-Copiar
-Editar
 ```bash
 curl --location 'http://localhost:8080/resultados?distrito_id=4&seccion_id=26'
 📌 Respuesta esperada
